@@ -1,0 +1,8 @@
+{
+  "name": "shareloc-backend",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "ws": "^0.8.0"
+  }
+}

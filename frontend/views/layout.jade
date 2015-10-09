@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    // link(rel='stylesheet', href='https://www.mapbox.com/base/latest/base.css')
+    script(src='http://code.jquery.com/jquery-2.1.4.min.js')
+    script(src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js')
+    link(rel='stylesheet', href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css')
+    script var pageURL = '#{url}';
+    script(src='/javascripts/index.js')
+  body
+    block content
